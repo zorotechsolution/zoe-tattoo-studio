@@ -22,6 +22,15 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .hover-gold {
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+    .hover-gold:hover {
+      color: var(--gold) !important;
+    }
+  </style>
 </head>
 <body>
 
@@ -74,9 +83,11 @@
         <div class="row g-0">
           <div class="col-lg-6">
             <div style="position:relative; overflow:hidden; height:100%; min-height:350px;">
-              <img src="images/blog-laser-removal.png" alt="The Complete Guide to Laser Tattoo Removal" style="width:100%; height:100%; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; inset:0; background:linear-gradient(to right, transparent 60%, var(--dark-card));"></div>
-              <div style="position:absolute; top:20px; left:20px;">
+              <a href="blog-details.html?id=laser-removal" style="display: block; height: 100%;">
+                <img src="images/blog-laser-removal.png" alt="The Complete Guide to Laser Tattoo Removal" style="width:100%; height:100%; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; inset:0; background:linear-gradient(to right, transparent 60%, var(--dark-card)); pointer-events: none;"></div>
+              <div style="position:absolute; top:20px; left:20px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Featured</span>
               </div>
             </div>
@@ -88,9 +99,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;"><i class="bi bi-calendar3 me-1"></i>June 1, 2026</span>
                 <span class="text-secondary" style="font-size:0.8rem;"><i class="bi bi-clock me-1"></i>12 min read</span>
               </div>
-              <h2 style="font-family:var(--font-heading); font-size:1.8rem; font-weight:700; line-height:1.3; margin-bottom:1rem;">The Complete Guide to Laser Tattoo Removal in 2026</h2>
+              <h2 style="font-family:var(--font-heading); font-size:1.8rem; font-weight:700; line-height:1.3; margin-bottom:1rem;">
+                <a href="blog-details.html?id=laser-removal" class="text-white hover-gold">The Complete Guide to Laser Tattoo Removal in 2026</a>
+              </h2>
               <p class="text-secondary" style="font-size:0.95rem; line-height:1.85; margin-bottom:1.5rem;">Everything you need to know about modern laser tattoo removal — from how picosecond and Q-switched lasers work to what you can expect during your first session. We break down the science behind ink shattering, explain why different colors require different wavelengths, and share real patient timelines so you can set realistic expectations for your removal journey.</p>
-              <a href="#" class="btn btn-gold">Read Article <i class="bi bi-arrow-right"></i></a>
+              <a href="blog-details.html?id=laser-removal" class="btn btn-gold">Read Article <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -123,8 +136,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="tattoos">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/blog-tattoo-styles.png" alt="Exploring tattoo styles" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=tattoo-styles">
+                <img src="images/blog-tattoo-styles.png" alt="Exploring tattoo styles" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Tattoos</span>
               </div>
             </div>
@@ -135,9 +150,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">8 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">Exploring 12 Popular Tattoo Styles: From Traditional to Fineline</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=tattoo-styles" class="text-white hover-gold">Exploring 12 Popular Tattoo Styles: From Traditional to Fineline</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">Tattoo artistry is an incredibly diverse world with dozens of distinct styles, each carrying its own history, technique, and visual language. From the bold, iconic imagery of Traditional American tattoos to the whisper-thin precision of Fineline work, understanding these styles helps you appreciate the art on your skin — and understand how each one responds differently to laser removal treatment.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=tattoo-styles" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -148,8 +165,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="removal">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/blog-ink-colors.png" alt="Ink color removal difficulty" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=ink-colors">
+                <img src="images/blog-ink-colors.png" alt="Ink color removal difficulty" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Removal</span>
               </div>
             </div>
@@ -160,9 +179,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">10 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">Why Some Ink Colors Are Harder to Remove Than Others</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=ink-colors" class="text-white hover-gold">Why Some Ink Colors Are Harder to Remove Than Others</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">Not all tattoo inks are created equal. Black carbon-based ink absorbs nearly every laser wavelength and shatters efficiently, while blue and green pigments made from copper phthalocyanine are notoriously resistant. We break down the chemistry behind each color and explain the specific wavelengths needed to target them effectively.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=ink-colors" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -173,8 +194,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="aftercare">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/blog-aftercare.png" alt="Tattoo removal aftercare" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=aftercare">
+                <img src="images/blog-aftercare.png" alt="Tattoo removal aftercare" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Aftercare</span>
               </div>
             </div>
@@ -185,9 +208,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">7 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">The Ultimate Aftercare Guide: Healing Between Removal Sessions</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=aftercare" class="text-white hover-gold">The Ultimate Aftercare Guide: Healing Between Removal Sessions</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">Proper aftercare between laser sessions is just as important as the treatment itself. How you treat your skin in those 6 to 8 weeks between appointments directly impacts how quickly your body clears fragmented ink and how well your skin recovers. From avoiding sun exposure to choosing the right moisturizers, we cover every detail.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=aftercare" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -198,8 +223,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="lifestyle">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/blog-tattoo-decision.png" alt="Should you remove your tattoo" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=tattoo-decision">
+                <img src="images/blog-tattoo-decision.png" alt="Should you remove your tattoo" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Lifestyle</span>
               </div>
             </div>
@@ -210,9 +237,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">6 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">Should You Remove or Cover Up Your Tattoo? Making the Right Choice</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=tattoo-decision" class="text-white hover-gold">Should You Remove or Cover Up Your Tattoo? Making the Right Choice</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">If you are no longer in love with your tattoo, you have two main options: laser removal or a cover-up. Each approach has its own pros and cons, and the best choice depends on your tattoo's size, colors, location, and your personal goals. We walk you through the decision-making process so you can choose the path that is right for you.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=tattoo-decision" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -223,8 +252,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="technology">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/before-after.png" alt="PicoSure Pro technology" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=picosure-vs-picoway">
+                <img src="images/before-after.png" alt="PicoSure Pro technology" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Technology</span>
               </div>
             </div>
@@ -235,9 +266,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">9 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">PicoSure vs. PicoWay vs. Q-Switched: Which Laser Is Right for You?</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=picosure-vs-picoway" class="text-white hover-gold">PicoSure vs. PicoWay vs. Q-Switched: Which Laser Is Right for You?</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">The world of laser technology can be confusing with so many devices on the market. We break down the key differences between PicoSure, PicoWay, and traditional Q-switched lasers — explaining how each works, which ink colors they target best, and why ZOE Studio uses a combination approach for superior results across all tattoo types.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=picosure-vs-picoway" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -248,8 +281,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="tattoos">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/tattoo-japanese.png" alt="Japanese Irezumi tattoo history" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=japanese-irezumi">
+                <img src="images/tattoo-japanese.png" alt="Japanese Irezumi tattoo history" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Tattoos</span>
               </div>
             </div>
@@ -260,9 +295,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">11 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">The Rich History of Japanese Irezumi: Art, Tradition & Modern Removal</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=japanese-irezumi" class="text-white hover-gold">The Rich History of Japanese Irezumi: Art, Tradition & Modern Removal</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">Japanese Irezumi is one of the oldest and most revered tattoo traditions in the world, dating back thousands of years. These large-scale, heavily saturated designs featuring koi, dragons, and cherry blossoms are breathtaking works of art — but their dense ink packing also makes them among the most challenging tattoos to remove. We explore the history and the removal science.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=japanese-irezumi" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -273,8 +310,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="removal">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/testimonial-1.png" alt="Permanent makeup removal" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=cosmetic-tattoos">
+                <img src="images/blog-cosmetic-removal.png" alt="Permanent makeup removal" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Removal</span>
               </div>
             </div>
@@ -285,9 +324,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">8 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">Removing Cosmetic Tattoos & Microblading: What You Need to Know</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=cosmetic-tattoos" class="text-white hover-gold">Removing Cosmetic Tattoos & Microblading: What You Need to Know</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">Cosmetic tattoos like microbladed eyebrows, permanent eyeliner, and lip blush use iron oxide-based pigments that behave very differently from traditional tattoo inks under laser energy. These pigments can paradoxically darken instead of fade, making specialized knowledge and test patches absolutely essential before committing to treatment.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=cosmetic-tattoos" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -298,8 +339,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="aftercare">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/tattoo-tribal.png" alt="Tribal tattoo removal journey" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=things-to-avoid">
+                <img src="images/blog-aftercare-avoid.png" alt="Tribal tattoo removal journey" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Aftercare</span>
               </div>
             </div>
@@ -310,9 +353,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">5 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">5 Things to Avoid After a Laser Tattoo Removal Session</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=things-to-avoid" class="text-white hover-gold">5 Things to Avoid After a Laser Tattoo Removal Session</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">Your actions in the days following a laser session can make or break your results. From sun exposure and hot showers to intense workouts and certain skincare products, there are several common mistakes that can slow healing, increase scarring risk, or reduce the effectiveness of your treatment. Here are the top five things you must avoid.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=things-to-avoid" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -323,8 +368,10 @@
         <div class="col-md-6 col-lg-4 fade-in-up blog-card" data-category="technology">
           <article class="h-100" style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:1rem; overflow:hidden; transition:all 0.5s ease;">
             <div style="position:relative; overflow:hidden;">
-              <img src="images/blog-tattoo-studio.png" alt="AI-assisted tattoo removal" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position:absolute; top:16px; left:16px;">
+              <a href="blog-details.html?id=ai-tattoo-removal">
+                <img src="images/blog-ai-removal.png" alt="AI-assisted tattoo removal" style="width:100%; height:240px; object-fit:cover; transition:transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+              <div style="position:absolute; top:16px; left:16px; pointer-events: none;">
                 <span style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:50px;">Technology</span>
               </div>
             </div>
@@ -335,9 +382,11 @@
                 <span class="text-secondary" style="font-size:0.8rem;">•</span>
                 <span class="text-secondary" style="font-size:0.8rem;">7 min read</span>
               </div>
-              <h3 class="text-white mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">How AI Is Revolutionizing Tattoo Removal: Predicting Outcomes with 92% Accuracy</h3>
+              <h3 class="mb-3" style="font-size:1.1rem; font-weight:700; line-height:1.4;">
+                <a href="blog-details.html?id=ai-tattoo-removal" class="text-white hover-gold">How AI Is Revolutionizing Tattoo Removal: Predicting Outcomes with 92% Accuracy</a>
+              </h3>
               <p class="text-secondary mb-4" style="font-size:0.85rem; line-height:1.8;">Artificial intelligence is transforming the tattoo removal industry. New AI algorithms can analyze your tattoo's ink composition, depth, and your skin type to predict removal outcomes with remarkable accuracy. This technology helps practitioners set realistic expectations and optimize treatment parameters from day one, saving you time and money.</p>
-              <a href="#" class="d-inline-flex align-items-center gap-2 text-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
+              <a href="blog-details.html?id=ai-tattoo-removal" class="d-inline-flex align-items-center gap-2 text-gold hover-gold" style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">
                 Read More <i class="bi bi-arrow-right" style="font-size:0.8rem;"></i>
               </a>
             </div>
@@ -347,8 +396,8 @@
       </div>
 
       <!-- Load More -->
-      <div class="text-center mt-5 fade-in-up">
-        <a href="#" class="btn btn-outline-gold">Load More Articles <i class="bi bi-arrow-down"></i></a>
+      <div class="text-center mt-5 fade-in-up" id="loadMoreContainer">
+        <a href="#" class="btn btn-outline-gold" id="loadMoreBtn">Load More Articles <i class="bi bi-arrow-down"></i></a>
       </div>
     </div>
   </section>
@@ -434,33 +483,79 @@
   <!-- Custom JS -->
   <script src="js/main.js"></script>
 
-  <!-- Blog Filter Script -->
+  <!-- Blog Filter & Load More Script -->
   <script>
+    const INITIAL_VISIBLE_COUNT = 6;
+    const LOAD_MORE_COUNT = 3;
+    let visibleCount = INITIAL_VISIBLE_COUNT;
+    let currentCategory = 'all';
+
+    const cards = document.querySelectorAll('.blog-card');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const loadMoreContainer = document.getElementById('loadMoreContainer');
+
+    function updateBlogVisibility(isInitialLoad = false) {
+      let matchCount = 0;
+
+      cards.forEach(card => {
+        const isMatch = (currentCategory === 'all' || card.dataset.category === currentCategory);
+        
+        if (isMatch) {
+          matchCount++;
+          if (matchCount <= visibleCount) {
+            // Show card
+            if (card.style.display === 'none' || isInitialLoad) {
+              card.style.display = '';
+              card.style.opacity = '0';
+              card.style.transform = 'translateY(20px)';
+              setTimeout(() => {
+                card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+              }, 50);
+            }
+          } else {
+            // Hide card
+            card.style.display = 'none';
+          }
+        } else {
+          // Hide card if it doesn't match category
+          card.style.display = 'none';
+        }
+      });
+
+      // Show/Hide Load More button based on remaining matching cards
+      if (matchCount > visibleCount) {
+        loadMoreContainer.style.display = '';
+      } else {
+        loadMoreContainer.style.display = 'none';
+      }
+    }
+
+    // Filter Buttons click handler
     document.querySelectorAll('.blog-filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         // Update active state
         document.querySelectorAll('.blog-filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
 
-        const category = btn.dataset.category;
-        const cards = document.querySelectorAll('.blog-card');
-
-        cards.forEach(card => {
-          if (category === 'all' || card.dataset.category === category) {
-            card.style.display = '';
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(20px)';
-            setTimeout(() => {
-              card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
-              card.style.opacity = '1';
-              card.style.transform = 'translateY(0)';
-            }, 50);
-          } else {
-            card.style.display = 'none';
-          }
-        });
+        currentCategory = btn.dataset.category;
+        visibleCount = INITIAL_VISIBLE_COUNT; // reset visibility count on filter change
+        updateBlogVisibility(true);
       });
     });
+
+    // Load More Button click handler
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        visibleCount += LOAD_MORE_COUNT;
+        updateBlogVisibility();
+      });
+    }
+
+    // Initialize visibility on page load
+    updateBlogVisibility(true);
   </script>
 </body>
 </html>
