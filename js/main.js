@@ -61,6 +61,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+  /* ---------- FAQ Category Pills ---------- */
+  const categoryPills = document.querySelectorAll('.faq-category-pill');
+  if (categoryPills.length > 0) {
+    categoryPills.forEach(function (pill) {
+      pill.addEventListener('click', function () {
+        categoryPills.forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+      });
+    });
+  }
+
 /* ---------- Contact Form Handler ---------- */
 const contactForm = document.getElementById('contactForm');
 
